@@ -1,0 +1,50 @@
+.container {
+    padding: 40px 360px 275px;
+}
+
+.h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.price {
+
+    height: 200px;
+    width: 340px;
+    padding: 32px;
+    border-radius: 24px;
+    border: 1px solid #F4F5FF;
+}
+
+.btn {
+    width: 100%;
+    border-radius: 69px;
+    background: linear-gradient(108deg, #DFEBFF 0%, #88ADCA 100%), #AECEF3;
+    height: 60px;
+    color: white;
+    border: none;
+}
+
+._price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.solomap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

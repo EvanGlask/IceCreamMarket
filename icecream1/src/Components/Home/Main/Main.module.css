@@ -1,0 +1,27 @@
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 380px);
+    grid-template-rows: repeat(2, 403px);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 120px;
+    padding: 0 360px 275px 360px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    margin-top: 63px;
+}

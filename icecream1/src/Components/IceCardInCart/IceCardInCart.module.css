@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.count {
+    display: block;
+    margin-top: 16px;
+}
+.img {
+    height: 72px;
+    margin: 14px 20px 9px 28px;
+}
+
+.title {
+    color: #212542;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.imgCont{
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(241, 247, 255, 1);
+    width: 120px;
+    margin-right: 24px;
+}
+
+.gap {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    margin-right: 69px;
+}

@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 360px ;
+    border-bottom: 1px solid rgba(248, 248, 248, 1);
+}
+
+.leftSvg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rightSvg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 48px;
+}
+.rightSvg button {
+    background-color: transparent;
+    border: none;
+    color: rgba(33, 37, 66, 1);
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 7px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.ellipse {
+    position: absolute;
+    top: 0;
+    right: -7px;
+    font-size: 8px;
+    text-align: center;
+    color: white;
+}
+.span{
+    position: absolute;
+    top: 4px;
+    right: -3px;
+    font-size: 8px;
+    color: white;
+    z-index: 99;
+}
+.relat {
+    position: relative;
+}
+
